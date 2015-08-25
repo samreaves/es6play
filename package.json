@@ -1,0 +1,19 @@
+{
+  "name": "es6play",
+  "version": "1.0.0",
+  "description": "Playing with ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:samreaves/es6play.git"
+  },
+  "author": "Sam Reaves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samreaves/es6play/issues"
+  },
+  "homepage": "https://github.com/samreaves/es6play"
+}

@@ -1,11 +1,23 @@
-// Import gulp and babel
+// Import gulp and webpack
 var gulp = require('gulp');
-var babel = require('gulp-babel');
+var clean = require('gulp-clean');
+var webpack = require('gulp-webpack');
 
-// Default task runs babel from src/app and places exported code into dist directory
-gulp.task('default', function() {
+// Default task
+gulp.task('default', ['moveHTML', 'webpack']);
+
+
+// Default task runs webpack from src/app and places exported code into dist directory
+gulp.task('webpack', function() {
 
 	return gulp.src('src/app.js')
-		.pipe(babel())
+		.pipe(webpack(require('./webpack.config.js')))
+		.pipe(gulp.dest('dist'));
+});
+
+// Move html page to dist
+gulp.task('moveHTML', function() {
+	
+	return gulp.src('src/index.html')
 		.pipe(gulp.dest('dist'));
 });

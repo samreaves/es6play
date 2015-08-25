@@ -1,10 +1,10 @@
 /* Playing with ES6 */
 
-class Fighter {
-	constructor(gym) {
-		this.gym = gym;
-		console.log(`I'm a fighter, and I train at ${this.gym}`);
-	}
-}
+// Import Fighter class
+import {Fighter} from './classes/fighter';
 
-var fighter = new Fighter("KnuckleUp");
+// Create new Fighter who trains at Knuckle Up
+let fighter = new Fighter("Knuckle Up");
+
+// Fighter describes his attributes
+fighter.soundOff();

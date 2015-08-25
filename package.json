@@ -4,6 +4,8 @@
   "description": "Playing with ES6",
   "main": "index.js",
   "scripts": {
+    "prestart": "npm install",
+    "start": "gulp",
     "test": "test"
   },
   "repository": {

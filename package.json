@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/samreaves/es6play/issues"
   },
-  "homepage": "https://github.com/samreaves/es6play"
+  "homepage": "https://github.com/samreaves/es6play",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1"
+  }
 }

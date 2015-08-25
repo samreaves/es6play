@@ -6,7 +6,7 @@
  * @date August 25, 2015
  */
 
-export default class Fighter {
+export class Fighter {
 
 	/**
 	 * @name Fighter constructor
@@ -25,6 +25,6 @@ export default class Fighter {
 	 * @description Fighter describes his attributes
 	 */
 	soundOff() {
-		console.log(`I'm a fighter, and I train at ${this.gym}`);
+		document.write(`I'm a fighter, and I train at ${this.gym}`);
 	}
 }

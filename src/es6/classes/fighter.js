@@ -37,6 +37,6 @@ export class Fighter {
 	 * @description Fighter describes his attributes
 	 */
 	soundOff() {
-		document.write(`I'm a fighter, and I train ${this.discipline} at ${this.gym}`);
+		document.write(`I'm a fighter, and I train ${this.discipline} at ${this.gym}.<br/>`);
 	}
 }

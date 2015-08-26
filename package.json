@@ -6,8 +6,7 @@
   "scripts": {
     "prestart": "npm install",
     "start": "gulp",
-    "test": "test",
-    "watch": "webpack --watch"
+    "test": "test"
   },
   "repository": {
     "type": "git",
@@ -23,8 +22,7 @@
     "babel-core": "^5.8.22",
     "babel-loader": "^5.3.2",
     "gulp": "^3.9.0",
-    "gulp-clean": "^0.3.1",
-    "gulp-webpack": "^1.5.0",
-    "node-libs-browser": "^0.5.2"
+    "gulp-sync": "^0.1.4",
+    "gulp-webpack": "^1.5.0"
   }
 }
